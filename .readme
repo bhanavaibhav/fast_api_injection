@@ -1,0 +1,19 @@
+//
+
+create virtual environment
+  python -m venv venv
+
+activate virtual environment
+for window
+  - venv/Script/activate
+for ubuntu
+ - source venv/bin/activate
+
+install dependency
+  pip install -r requriments.txt
+
+run project cmd
+ uvicorn app.main:app --reload
+
+
+
